@@ -1,15 +1,15 @@
 # unplugin-auto-import-ahooks
 
-English / [简体中文](./README.zh-CN.md)
+[English](./README.md) / 简体中文
 
-`unplugin-auto-import-ahooks` is a resolver for [unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import) that enables on-demand importing of ahooks.
+`unplugin-auto-import-ahooks` 是 [unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import) 的一个解析器，用于实现 ahooks 按需引入。
 
-## Features
+## 特性
 
-- Support `Vite`, `Webpack` and more
-- Automatically imports hooks from `ahook`
+- 支持 `Vite`, `Webpack` 等
+- 支持自动引入 `ahooks`
 
-## Installation
+## 安装
 
 ### npm
 
@@ -35,7 +35,7 @@ pnpm add -D unplugin-auto-import-ahooks unplugin-auto-import
 bun add -D unplugin-auto-import-ahooks unplugin-auto-import
 ```
 
-## Usage
+## 使用
 
 ### Vite
 
@@ -63,7 +63,7 @@ module.exports = {
   /* ... */
   plugins: [
     require('unplugin-auto-import/webpack')({
-      resolvers: [AntdAhooksResolverResolver()]
+      resolvers: [AhooksResolver()]
     })
   ]
 }
