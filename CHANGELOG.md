@@ -2,7 +2,9 @@
 
 ## 0.0.3
 
-- remove preinstall script `npx only-allow pnpm`
+### Patch Changes
+
+- remove preinstall script
 
 ## 0.0.2
 
