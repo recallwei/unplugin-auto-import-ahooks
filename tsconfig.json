@@ -1,14 +1,4 @@
 {
-  "include": ["build.config.ts", "src"],
-  "compilerOptions": {
-    "outDir": "dist",
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "strict": true,
-    "skipLibCheck": true,
-    "sourceMap": false,
-    "noUnusedLocals": true,
-    "esModuleInterop": true
-  }
+  "extends": "@bit-ocean/tsconfig/base",
+  "include": ["build.config.ts", "src"]
 }
